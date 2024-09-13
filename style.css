@@ -1,0 +1,59 @@
+.header{
+    display: flex;
+    align-items: end;
+    border-top: solid 1px black;
+    border-bottom : solid 1px black;
+    justify-content: end;
+}
+a{
+    color:black;    
+}
+.service{
+    margin:5px;
+}
+.body{
+    height: 90vh;
+    width: auto;
+    background-color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.sign{
+    width: 500px;
+    height: 500px;
+    border-radius: 30px;
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.stuff{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+.info{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+.dont{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    border-top: 1px solid black;
+}
+button{
+    height: 50px;
+    width: 100px;
+    margin:10px;
+    background-color:blue;
+    color: white;
+    border-radius:12px;
+    font-size:large;
+    border:0px;
+}
